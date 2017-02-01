@@ -1,3 +1,4 @@
+package JavaSeleniumExample;
 
 public class StringMethods {
 

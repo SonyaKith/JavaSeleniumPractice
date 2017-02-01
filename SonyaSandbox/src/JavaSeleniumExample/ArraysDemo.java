@@ -1,3 +1,4 @@
+package JavaSeleniumExample;
 import java.util.*;
 
 public class ArraysDemo {
