@@ -21,9 +21,9 @@ public class GoogleSearchTest {
 		driver.findElement(By.id("sfdiv")).click();
 		
 		// Find search button and click on it
-		driver.findElement(By.linkText("5 Awesome Facts About the Atlas Moth | Mental Floss")).click();
-		//driver.findElement(By.linkText(".//*[@id='lst-ib']")).click();
-		//driver.findElement(By.xpath("//a[text()='Wikipedia']")).click();
+		//driver.findElement(By.linkText("5 Awesome Facts About the Atlas Moth | Mental Floss")).click();
+		//driver.findElement(By.
+		driver.findElement(By.xpath("//a[text()='Wikipedia']")).click();
 
 	}
 
