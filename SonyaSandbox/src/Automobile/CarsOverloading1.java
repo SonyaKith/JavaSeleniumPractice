@@ -3,6 +3,7 @@ package Automobile;
 // 1. Different Number of parameters in arguments list
 // 2. Difference in data type of arguments
 // 3. Difference is sequence of data type of arguments
+// 4. Cannot overload just on return type
 
 /***
  * Different Number of parameters in arguments list

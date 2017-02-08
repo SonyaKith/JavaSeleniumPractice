@@ -1,5 +1,7 @@
-import Automobile.*;
 package JavaSeleniumExample;
+
+import Automobile.*;
+
 
 public class Honda extends Cars {
 	
