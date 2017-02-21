@@ -8,8 +8,23 @@ public class GoogleSearchTest {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * id - fastest
+		 * name
+		 * classname
+		 * xpath
+		 * linktext
+		 * partial link text
+		 * tagname
+		 * css selector
+		 * 
+		 */
+		
 		// Create Firefox driver to drive the browser
 		WebDriver driver = new FirefoxDriver();
+		
+		// Maximize the browser
+		driver.manage().window().maximize();
 		
 		// Open Google homepage
 		driver.get("http://www.google.com");
@@ -18,13 +33,11 @@ public class GoogleSearchTest {
 		driver.findElement(By.id("lst-ib")).sendKeys("atlas moth");
 		
 		// Click on the search button
-		driver.findElement(By.id("sfdiv")).click();
+		driver.findElement(By.name("btnG")).click();
 		
-		// Find search button and click on it
-		//driver.findElement(By.linkText("5 Awesome Facts About the Atlas Moth | Mental Floss")).click();
-		//driver.findElement(By.
-		driver.findElement(By.xpath("//a[text()='Wikipedia']")).click();
-
+		//
+		//driver.findElement(By.tagName("a")).click();
+		driver.findElement(By.)(".//*[@id='rso']/div/div/div[2]/div/h3/a")).click();
 	}
 
 }
